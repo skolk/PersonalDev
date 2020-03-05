@@ -5,13 +5,12 @@ Fob all the things (known as FATT) has the goal of of creating an open source pa
 
 ***
 # Directory
-
-
 - [Status](#Status)
-- History
-- Resources
-- Outline
-- BOM
+- [History](#History
+- [Resources](#Resources)
+- [Outline](#Outline)
+- [Hardware](##Hardwre)
+- [BOM](BOM)
 - Version History
 
 # Status
@@ -69,6 +68,5 @@ The user database and permissions can either be accessed via ssh on or held remo
 
 #Existing BOM for DEV Kit:
 https://docs.google.com/spreadsheets/d/1saBPHnn_E8FyzVhVKWeM24Enc3zIGl8CUS3w7r8rCs0/edit#gid=0
-
 
 ***
