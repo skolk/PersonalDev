@@ -15,7 +15,7 @@ Fob all the things (known as FATT) has the goal of of creating an open source pa
 FATT is currently in the process of undergoing a define freeze, Dev kit push, and Software synchronization:
 
 ## Current Asks
-- [ ] Create Hardware version number
+- [ ] Create Hardware version
 - [ ] Define Software Scope and Create version with in bounds
 - [ ] Create Software Package
 - [ ] Produce 'plug and play' package in as MVP (POC has been established at Nom Com).
@@ -47,13 +47,20 @@ at Nomcon 2019; Ace Monster Toys created a presentation to demonstrate their pro
 # Outline
 The FATT framework's design intent is to be a platform to allow different code bases, hardware, and oversight for communities to grant access and track user resources; this is determined by establishing core use cases; divergent points, and convergence points.
 
-For instance it is a goal of FATT to have third party and local database access. (such as AWS vs a local RaspberryPi)
+### Goals
+- Open Source
+- Extensible and scalable
+- Platform agnostic
+- Accessible software - common supported languages & libraries
+- Affordable Hardware
 
 ## Hardware:
 At the core of FATT is the key fob, a RFID tag that communicates with a RFID reader easily connected to a USB into a Raspberry Pi 3B. The Fob is core to the system, how everything else happens is to support the space ensuring that the system is reliable and secure.
 
 ## Software
 The local Raspberry pi's job is to interface with the RFID, check if the resource has permissions and then recored the request. The Acess point must store it's database either locally or remotly; and check the database. CUrrently the systme is set up to ping the data base every 100ms to ensure up to date resources.
+- [Creating an api for FATT](https://foballthethings.org/resources-for-creating-an-api-for-fatt/) 
+- [Wild Apricot intigration](https://github.com/stevenjowens/erras) 
 
 ## Backend
 The user database and permissions can either be accessed via ssh on or held remortly in a systme such as AWS, Microsoft Azure, or some thing else. The Goal of this project is to be a good pipe. How that data based system is updated (apercot?)
@@ -68,3 +75,4 @@ https://docs.google.com/spreadsheets/d/1saBPHnn_E8FyzVhVKWeM24Enc3zIGl8CUS3w7r8r
 # Branches
 - [DanDudes version](https://github.com/DanDude0/MakerAccessControl)
 - [Milwaukee Maker Space](https://github.com/DanDude0/MilwaukeeMakerspacePiFobReader)
+- [Maker Space Controll Access Project page](http://koljawindeler.github.io/macs/)[Github](https://github.com/KoljaWindeler/macs/tree/master/website) 
