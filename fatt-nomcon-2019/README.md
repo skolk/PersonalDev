@@ -6,12 +6,10 @@ Fob all the things (known as FATT) has the goal of of creating an open source pa
 ***
 # Directory
 - [Status](#Status)
-- [History](#History
+- [History](#History)
 - [Resources](#Resources)
 - [Outline](#Outline)
-- [Hardware](##Hardwre)
-- [BOM](BOM)
-- Version History
+- [Branches](#Branches) 
 
 # Status
 FATT is currently in the process of undergoing a define freeze, Dev kit push, and Software synchronization:
@@ -42,10 +40,8 @@ at Nomcon 2019; Ace Monster Toys created a presentation to demonstrate their pro
 - [A landing page](https://foballthethings.org/ ) where you can order dev kits
 - [The 2019 working version for the presentation](https://github.com/acemonstertoys/fatt-nomcon-2019)
 - [Nom Com Dashboard](https://nomcon.foballthethings.org/)  
-- [wiki organizing](https://www.makerhappen.org/fatt)
+- [Makerhappen Wiki](https://www.makerhappen.org/fatt)
 - [Join the Slack](https://fatt-slack-auth.herokuapp.com/)
-- [DanDudes version](https://github.com/DanDude0/MakerAccessControl)
-- [Milwaukee Maker Space](https://github.com/DanDude0/MilwaukeeMakerspacePiFobReader)
 
 ***
 # Outline
@@ -62,7 +58,6 @@ The local Raspberry pi's job is to interface with the RFID, check if the resourc
 ## Backend
 The user database and permissions can either be accessed via ssh on or held remortly in a systme such as AWS, Microsoft Azure, or some thing else. The Goal of this project is to be a good pipe. How that data based system is updated (apercot?)
 
-
 ## Admin interface
 [Apercot](https://www.wildapricot.com/) is a potential membership resource. 
 
@@ -70,3 +65,6 @@ The user database and permissions can either be accessed via ssh on or held remo
 https://docs.google.com/spreadsheets/d/1saBPHnn_E8FyzVhVKWeM24Enc3zIGl8CUS3w7r8rCs0/edit#gid=0
 
 ***
+# Branches
+- [DanDudes version](https://github.com/DanDude0/MakerAccessControl)
+- [Milwaukee Maker Space](https://github.com/DanDude0/MilwaukeeMakerspacePiFobReader)
