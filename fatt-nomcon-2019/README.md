@@ -4,22 +4,24 @@ access management for maker spaces
 Fob all the things (known as FATT) has the goal of of creating an open source package of hardware and software to allow maker spaces and community groups to install access points with minimal hardware and coding knowlege (nothing outside of a terminal command prompt)
 
 ***
-#Directory
--Status
--History
--Resources
--Outline
--BOM
--Version History
+# Directory
+
+
+- [Status](#Status)
+- History
+- Resources
+- Outline
+- BOM
+- Version History
 
 # Status
 FATT is currently in the process of undergoing a define freeze, Dev kit push, and Software synchronization:
 
 ## Current Asks
-[ ]Create Hardware version number
-[ ]Define Software Scope and Create version with in bounds
-[ ]Create Software Package
-[ ]Produce 'plug and play' package in as MVP (POC has been established at Nom Com).
+- [ ] Create Hardware version number
+- [ ] Define Software Scope and Create version with in bounds
+- [ ] Create Software Package
+- [ ] Produce 'plug and play' package in as MVP (POC has been established at Nom Com).
 
 ## Where this project is now:
 FATT is active in 2 maker spaces running slightly different frameworks and hardware.
@@ -36,15 +38,15 @@ at Nomcon 2019; Ace Monster Toys created a presentation to demonstrate their pro
 ***
 #Resources
 
--[Ace Monster Toys presentation](https://www.acemonstertoys.org/fatt-at-nomcon/)
--[slide presentation](https://docs.google.com/presentation/d/1t7AaRWNNl93JGzS-Eg19WnUrunBbh1UaYufZjOnOvw4/edit#slide=id.p)
--[A landing page](https://foballthethings.org/ ) where you can order dev kits
--[The 2019 working version for the presentation](https://github.com/acemonstertoys/fatt-nomcon-2019)
--[Nom Com Dashboard](https://nomcon.foballthethings.org/)  
--[wiki organizing](https://www.makerhappen.org/fatt)
--[Join the Slack](https://fatt-slack-auth.herokuapp.com/)
--[DanDudes version](https://github.com/DanDude0/MakerAccessControl)
--[Milwaukee Maker Space](https://github.com/DanDude0/MilwaukeeMakerspacePiFobReader)
+- [Ace Monster Toys presentation](https://www.acemonstertoys.org/fatt-at-nomcon/)
+- [slide presentation](https://docs.google.com/presentation/d/1t7AaRWNNl93JGzS-Eg19WnUrunBbh1UaYufZjOnOvw4/edit#slide=id.p)
+- [A landing page](https://foballthethings.org/ ) where you can order dev kits
+- [The 2019 working version for the presentation](https://github.com/acemonstertoys/fatt-nomcon-2019)
+- [Nom Com Dashboard](https://nomcon.foballthethings.org/)  
+- [wiki organizing](https://www.makerhappen.org/fatt)
+- [Join the Slack](https://fatt-slack-auth.herokuapp.com/)
+- [DanDudes version](https://github.com/DanDude0/MakerAccessControl)
+- [Milwaukee Maker Space](https://github.com/DanDude0/MilwaukeeMakerspacePiFobReader)
 
 ***
 # Outline
