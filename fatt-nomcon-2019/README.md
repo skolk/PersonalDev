@@ -1,4 +1,4 @@
-# fob-all-the-things
+# Fob-all-the-things
 access management for maker spaces
 
 Fob all the things (known as FATT) has the goal of of creating an open source package of hardware and software to allow maker spaces and community groups to install access points with minimal hardware and coding knowlege (nothing outside of a terminal command prompt)
@@ -16,17 +16,16 @@ Fob all the things (known as FATT) has the goal of of creating an open source pa
 FATT is currently in the process of undergoing a define freeze, Dev kit push, and Software synchronization:
 
 ## Current Asks
--Create Hardware version number
--Define Software Scope and Create version with in bounds
--Create Software Package
--Produce 'plug and play' package in as MVP (POC has been established at Nom Com).
--create a working MVP remake
+[ ]Create Hardware version number
+[ ]Define Software Scope and Create version with in bounds
+[ ]Create Software Package
+[ ]Produce 'plug and play' package in as MVP (POC has been established at Nom Com).
 
 ## Where this project is now:
-FATT is active in X maker spaces running slightly different frameworks and hardware.
+FATT is active in 2 maker spaces running slightly different frameworks and hardware.
 
 ## Where we want to go:
-
+AN established trac reccored of what to build and where to go. 
 
 
 # History
